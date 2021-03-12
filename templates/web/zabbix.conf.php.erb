@@ -51,12 +51,12 @@ $SSO['IDP_CERT']='<%= @saml_idp_cert %>';
 <% end %>
 <% if @saml_settings %>
 $SSO['SETTINGS'] = [
-    <% @database_profile_hash.each do |key, hash| -%>
+    <% @saml_settings.each do |key, hash| -%>
         '<%= key %>' => [
         <% hash.each do |key,value| -%>
-            '<%= key %>'=<%= value %>
+            '<%= key %>' => <%= value %>,
         <% end %>
-        ]
+        ],
     <% end -%>
 ];
 <% end %>
