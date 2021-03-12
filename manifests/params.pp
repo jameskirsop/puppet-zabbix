@@ -199,7 +199,7 @@ class zabbix::params {
   $saml_sp_key                              = undef
   $saml_sp_cert                             = undef
   $saml_idp_cert                            = undef
-  $saml_idp_settings                        = undef
+  $saml_settings                            = undef
 
   # Zabbix-server
   $server_alertscriptspath                  = '/etc/zabbix/alertscripts'
