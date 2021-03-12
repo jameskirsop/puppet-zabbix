@@ -196,6 +196,10 @@ class zabbix::params {
   $ldap_reqcert                             = undef
   $server_api_pass                          = 'zabbix'
   $server_api_user                          = 'Admin'
+  $saml_sp_key                              = undef
+  $saml_sp_cert                             = undef
+  $saml_idp_cert                            = undef
+  $saml_idp_settings                        = undef
 
   # Zabbix-server
   $server_alertscriptspath                  = '/etc/zabbix/alertscripts'
