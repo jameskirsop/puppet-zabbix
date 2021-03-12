@@ -435,7 +435,7 @@ This is the class for installing everything on a single host and thus all parame
 * `saml_sp_key`: The location of the SAML Service Proivder Key file. The module will not install this file so it must be present on the system.
 * `saml_sp_cert`: The location of the SAML Service Proivder Certificate. The module will not install this file so it must be present on the system.
 * `saml_idp_cert`: The location of the SAML Identity Proivder Certificate. The module will not install this file so it must be present on the system.
-* `saml_settings`: A hash of additional SAML SSO settings as described in the (Zabbix Documentation)[https://www.zabbix.com/documentation/current/manual/web_interface/frontend_sections/administration/authentication#advanced_settings]
+* `saml_settings`: A hash of additional SAML SSO settings as described in the [Zabbix Documentation](https://www.zabbix.com/documentation/current/manual/web_interface/frontend_sections/administration/authentication#advanced_settings)
 
 There are some more zabbix specific parameters, please check them by opening the manifest file.
 
